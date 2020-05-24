@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">MJ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="preços.html">Preços</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Jogos
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="uncharted.html">Uncharted 4</a>
+                        <a class="dropdown-item" href="DeathStranding.html">Death Stranding</a>
+                        <a class="dropdown-item" href="DevilMayCry.html">Devil May cry</a>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+                </li>
+            </ul>
+    </nav>
+    </div>
+
+
+    <div class="container">
+        <h2>Preços</h2>
+        <table class="table table-dark table-striped">
+            <caption>Tabela 1: Comparativo jogos</caption>
+            <thead>
+                <tr>
+
+                    <th> Nome </th>
+                    <th> Data Lançamento</th>
+                    <th> Estilo</th>
+                    <th> Fabricante</th>
+                    <th> Plataformas</th>
+                    <th colspan="2"> Preço</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td> Uncharted 4</td>
+                    <td> 10 de maio 2016</td>
+                    <td> Ação e Aventura</td>
+                    <td> Naughty Dog</td>
+                    <td> PlayStation </td>
+                    <td> R$35,00</td>
+                    <td> R$ 60,00</td>
+
+                </tr>
+
+                <tr>
+
+                    <td rowspan="2"> Death Stranding</td>
+                    <td rowspan="2"> 8 de novembro 2019</td>
+                    <td rowspan="2"> Ação e Aventura</td>
+                    <td rowspan="2"> Kojima Productions</td>
+                    <td> PlayStation</td>
+                    <td rowspan="2"> R$99,00</td>
+                    <td rowspan="2"> R$ 149,00</td>
+
+                </tr>
+
+                <tr>
+                    <td>PC</td>
+                </tr>
+
+                <tr>
+
+                    <td rowspan="3"> Devil May Cry 4</td>
+                    <td rowspan="3"> 31 de janeiro 2008</td>
+                    <td rowspan="3"> Ação e Aventura</td>
+                    <td rowspan="3"> Capcom</td>
+                    <td> PlayStation</td>
+                    <td rowspan="3"> R$40,00</td>
+                    <td rowspan="3"> R$300,00</td>
+
+                </tr>
+
+                <tr>
+                    <td>PC</td>
+                </tr>
+                <tr>
+                    <td>Xbox</td>
+                </tr>
+
+
+            </tbody>
+
+
+            <tfoot>
+                <tr>
+
+                    <td colspan="7"> Valores consultados em 21/03/2020</td>
+
+                </tr>
+
+            </tfoot>
+
+
+
+        </table>
+    </div>
+
+
+    <footer class="container-fluid text-center p-3 my-3 bg-dark text-white">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3><a href="faleconosco.html">Fale Conosco</a></h3>
+            </div>
+            <div class="col-sm-4">
+                <h3>Conecte</h3>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-google"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+            <div class="col-sm-4">
+                <h3>Contato</h3>
+                <br>
+                <h5><i class="fas fa-phone-alt"></i> 0800-000-000</h5>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
